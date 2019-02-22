@@ -36,7 +36,7 @@ export default class GalaxySNote7 extends React.Component {
   };
 
   exclaim = () => {
-    this.throwAFit;
+    //this.throwAFit;
     if (this.state.panicked) return;
     this.exclaimAudio.play();
     this.squeelAudio.play();
